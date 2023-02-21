@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct API {
-    static func hello() {
+public struct API {
+    public static func hello() {
         print("Hello, world!")
     }
 }
