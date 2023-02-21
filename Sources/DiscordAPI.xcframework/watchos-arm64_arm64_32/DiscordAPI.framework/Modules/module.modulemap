@@ -1,0 +1,11 @@
+framework module DiscordAPI {
+  umbrella header "DiscordAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module DiscordAPI.Swift {
+  header "DiscordAPI-Swift.h"
+  requires objc
+}
